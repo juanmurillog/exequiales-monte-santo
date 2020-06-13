@@ -1,0 +1,13 @@
+.navegador{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: lightblue;
+ 
+}
+li{
+    display: inline;
+}
+a{
+    padding: 8px;
+}
