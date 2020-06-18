@@ -2,17 +2,29 @@
   text-align: center;
 }
 body{
-   
+  font-family: 'Barlow Condensed', sans-serif;
+}
+:root{
+  --gris:#6f8a91;
+  --complement : #A67A2E;
+  --end : #593B07;
+  --pdf : #5ebbe9 ;
+  --pdf2 :#2d3f4b ;
+  --pdf3 :  #0096d4;
+  --logo : #2e68a7;
 }
 .contain{
-  
+  border-bottom: 1px solid lightskyblue;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.title-plans{
+  text-align: center;
+  color: var(--pdf2);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -42,3 +54,41 @@ body{
     transform: rotate(360deg);
   }
 }
+
+
+/* SM Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  #home-carousel{
+   height: auto;
+  }
+  
+  
+ }
+
+/* MD Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+ #home-carousel .carousel-item{
+   height: 350px;
+}
+.header-info{
+ display:flex;
+ align-items:center;
+ justify-content: flex-start;
+}
+}
+
+/* LG Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+#home-carousel .carousel-item{
+   height: 500px;
+}
+}
+
+/* XL Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+ #home-carousel .carousel-item{
+   height: 600px;
+}
+ }

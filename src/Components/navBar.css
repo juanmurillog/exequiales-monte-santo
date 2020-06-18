@@ -1,13 +1,23 @@
-.navegador{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: lightblue;
- 
+#home-pg{
+    background-color: white;
 }
-li{
-    display: inline;
+#default-navbar{
+    background-color: var(--pdf2);
 }
-a{
-    padding: 8px;
+
+#default-navbar .nav-link, 
+#default-navbar .navbar-brand{
+    color: white;
+}
+#defaul-navbar #navbar-opts form{
+    
+   justify-content: end;
+}
+
+.alert-register{
+    text-align: center;
+}
+#btn-ingresar{
+    color: var(--pdf2);
+    background-color: white;
 }
