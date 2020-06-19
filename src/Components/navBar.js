@@ -1,11 +1,7 @@
 import React from 'react'
 import {NavLink, withRouter} from 'react-router-dom'
 import './navBar.css'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
-import Form from 'react-bootstrap/Form'
-
+import {Navbar,Nav,Button,Form} from 'react-bootstrap'
 import ModalIngreso from './modal.js'
 //we create component navBar 
 

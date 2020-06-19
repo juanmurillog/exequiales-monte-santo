@@ -1,27 +1,39 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card'
 import './plan.css'
+//componente cards de los planes 
+
+import {Card,Button,Badge,Accordion, ButtonToolbar} from 'react-bootstrap'
 
 function Plan(props){
      
     return(
+    <>
+   
 
-     <>
-  <Card className="card">
+    <Card className="card">
     <Card.Img variant="top" src={props.imagen} className="rounded-circle align-self-center"/>
     <Card.Body>
     <Card.Title>{props.name}</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
+    <Accordion >
+    <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="info" eventKey="0">
+        Mas informacion
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="0">
+    <Card.Body>{props.info}</Card.Body>
+    </Accordion.Collapse>
   </Card>
-  
+   </Accordion>
+    </Card.Body>
+    </Card>
+    
 </>
+   
+   
+   
+   
     );
 }
 

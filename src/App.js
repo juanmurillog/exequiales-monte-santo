@@ -7,6 +7,7 @@ import HomeCarousel from './Components/carrousel';
 import {BrowserRouter, Route} from 'react-router-dom';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import CardsPlan from './Components/cardsPlan'
+import CardsProduct from './Components/cardsProduct'
 
 
 import { render } from '@testing-library/react';
@@ -25,7 +26,8 @@ class App extends Component {
             <CardsPlan/>
           </section>
           <section>
-
+          <div class="text-center mt-4"> <h1 className="text-center products-title"> PRODUCTOS</h1></div>
+          <CardsProduct/>
           </section>
           <Route exact path="/" component={Home}/>
           <Route path ="/agregar" component={Agregar} />
