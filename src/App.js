@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Header from './Components/header.js'
-import './App.css';
+import Header from './Components/header.js';
 import Home from './Components/home';
 import Agregar from './Components/agregar';
 import HomeCarousel from './Components/carrousel';
-import {BrowserRouter, Route} from 'react-router-dom';
+import CardsPlan from './Components/cardsPlan';
+import CardsProduct from './Components/cardsProduct';
+import FooterPage from './Components/footer';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
-import CardsPlan from './Components/cardsPlan'
-import CardsProduct from './Components/cardsProduct'
+import './App.css';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 
 import { render } from '@testing-library/react';
@@ -26,9 +27,10 @@ class App extends Component {
             <CardsPlan/>
           </section>
           <section>
-          <div class="text-center mt-4"> <h1 className="text-center products-title"> PRODUCTOS</h1></div>
+          <div className="text-center mt-4"> <h1 className="text-center products-title"> PRODUCTOS</h1></div>
           <CardsProduct/>
           </section>
+          <FooterPage/>
           <Route exact path="/" component={Home}/>
           <Route path ="/agregar" component={Agregar} />
         </div>

@@ -7,3 +7,10 @@
 .card{
     border: none;
 }
+#info-card{
+    margin-left: 0;
+}
+#list-plans{
+    list-style: none;
+    padding-left: 0;
+}

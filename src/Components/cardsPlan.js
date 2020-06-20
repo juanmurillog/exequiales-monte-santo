@@ -10,31 +10,27 @@ function CardsPlan(){
                 <Plan
                  name=" Plan Boveda" 
                  imagen="/Images/Paquetes decks/boveda.jpg"
-                 info={<ul id="list-boveda">
-                 <h4>Incluye 5 personas o 9 personas</h4>
-                 <li>Incluye traslado a nivel nacional</li>
-                  <li> Misa exequial </li>
-                  <li> Ramo</li>
-                  <li> Misa del año</li>
-                </ul>}/> 
+                 personas="Incluye 5 o 9 Personas"
+                 transfer ="Traslado a nivel Nacional"
+                 misaE ="Misa Exequial"
+                 ramo = "Ramo"
+                 misaA = "Misa anual"
+                 /> 
+                 
                 <Plan 
                 name ="Plan Cremacion" 
                 imagen="/Images/Paquetes decks/cremacion.jpg"
-                info={
-                    <ul id="list-cremacion">
-                  <h4>Incluye 9 personas</h4>
-                  <li> Traslado a nivel nacional</li>
-                   <li> Misa exequial </li>
-                   <li> Ramo</li>
-                   <li> Misa del año</li>
-                   <li> Cremacion</li>
-                </ul>
-               
-                }/>
+                personas="Incluye 9 Personas"
+                transfer ="Traslado a nivel Nacional"
+                misaE ="Misa Exequial"
+                ramo = "Ramo"
+                misaA = "Misa anual"
+                cremacion= "Cremacion"
+                />
                 <Plan 
                 name ="Plan Empresarial" 
                 imagen ="/Images/Paquetes decks/empresarial.jpg"
-                info="Contactenos"/>
+               />
              </CardDeck>
 
     )

@@ -6,9 +6,9 @@ function CardsProduct(){
     return(
 
         <CardGroup>
-          <Products/>
-          <Products/>
-          <Products/>
+          <Products title="Coronas" imagen="/Images/Productos decks/coronas.png"/>
+          <Products title="Pedestales" imagen="/Images/Productos decks/pedestales.png"/>
+          <Products title="Coros" imagen ="/Images/Productos decks/coros2.jpeg"/>
         </CardGroup>
     )
 }
