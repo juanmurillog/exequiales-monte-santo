@@ -62,8 +62,7 @@ body{
    height: auto;
   }
   
-  
- }
+ 
 
 /* MD Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
@@ -75,6 +74,10 @@ body{
  display:flex;
  align-items:center;
  justify-content: flex-start;
+}
+#img-product{
+  padding-left: 0;
+}
 }
 }
 
