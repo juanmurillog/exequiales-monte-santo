@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f615e0de670c11af37f19d13844885d0",
+    "revision": "68c13169fea1e4656af0979e7cb6ae60",
     "url": "/juanmurillog/exequiales-monte-santo.git/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/juanmurillog/exequiales-monte-santo.git/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6f0db178349d389c81f4",
+    "revision": "a54fcf66e98045ee5c23",
     "url": "/juanmurillog/exequiales-monte-santo.git/static/css/main.57702e2b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/juanmurillog/exequiales-monte-santo.git/static/js/2.138ee003.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f0db178349d389c81f4",
-    "url": "/juanmurillog/exequiales-monte-santo.git/static/js/main.d3bc2d03.chunk.js"
+    "revision": "a54fcf66e98045ee5c23",
+    "url": "/juanmurillog/exequiales-monte-santo.git/static/js/main.fe08ff98.chunk.js"
   },
   {
     "revision": "19317363af672827a26c",

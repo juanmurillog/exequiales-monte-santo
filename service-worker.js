@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/juanmurillog/exequiales-monte-santo.git/precache-manifest.84cd2f6eed83c1211b62830b4003ca9d.js"
+  "/juanmurillog/exequiales-monte-santo.git/precache-manifest.34a3989cab4b3a9ec256600b47ca1a17.js"
 );
 
 self.addEventListener('message', (event) => {
