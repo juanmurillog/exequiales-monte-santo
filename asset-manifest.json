@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/juanmurillog/exequiales-monte-santo.git/static/css/main.57702e2b.chunk.css",
-    "main.js": "/juanmurillog/exequiales-monte-santo.git/static/js/main.fe08ff98.chunk.js",
-    "main.js.map": "/juanmurillog/exequiales-monte-santo.git/static/js/main.fe08ff98.chunk.js.map",
-    "runtime-main.js": "/juanmurillog/exequiales-monte-santo.git/static/js/runtime-main.8d209fd1.js",
-    "runtime-main.js.map": "/juanmurillog/exequiales-monte-santo.git/static/js/runtime-main.8d209fd1.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/juanmurillog/exequiales-monte-santo.git/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.138ee003.chunk.js": "/juanmurillog/exequiales-monte-santo.git/static/js/2.138ee003.chunk.js",
-    "static/js/2.138ee003.chunk.js.map": "/juanmurillog/exequiales-monte-santo.git/static/js/2.138ee003.chunk.js.map",
-    "index.html": "/juanmurillog/exequiales-monte-santo.git/index.html",
-    "precache-manifest.34a3989cab4b3a9ec256600b47ca1a17.js": "/juanmurillog/exequiales-monte-santo.git/precache-manifest.34a3989cab4b3a9ec256600b47ca1a17.js",
-    "service-worker.js": "/juanmurillog/exequiales-monte-santo.git/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/juanmurillog/exequiales-monte-santo.git/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.57702e2b.chunk.css.map": "/juanmurillog/exequiales-monte-santo.git/static/css/main.57702e2b.chunk.css.map",
-    "static/js/2.138ee003.chunk.js.LICENSE.txt": "/juanmurillog/exequiales-monte-santo.git/static/js/2.138ee003.chunk.js.LICENSE.txt"
+    "main.css": "/juanmurillog/exequiales-monte-santo/static/css/main.57702e2b.chunk.css",
+    "main.js": "/juanmurillog/exequiales-monte-santo/static/js/main.b37fea19.chunk.js",
+    "main.js.map": "/juanmurillog/exequiales-monte-santo/static/js/main.b37fea19.chunk.js.map",
+    "runtime-main.js": "/juanmurillog/exequiales-monte-santo/static/js/runtime-main.17128904.js",
+    "runtime-main.js.map": "/juanmurillog/exequiales-monte-santo/static/js/runtime-main.17128904.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/juanmurillog/exequiales-monte-santo/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.155b0532.chunk.js": "/juanmurillog/exequiales-monte-santo/static/js/2.155b0532.chunk.js",
+    "static/js/2.155b0532.chunk.js.map": "/juanmurillog/exequiales-monte-santo/static/js/2.155b0532.chunk.js.map",
+    "index.html": "/juanmurillog/exequiales-monte-santo/index.html",
+    "precache-manifest.66d1b2ff4832ac6c7d78594ee3380059.js": "/juanmurillog/exequiales-monte-santo/precache-manifest.66d1b2ff4832ac6c7d78594ee3380059.js",
+    "service-worker.js": "/juanmurillog/exequiales-monte-santo/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/juanmurillog/exequiales-monte-santo/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.57702e2b.chunk.css.map": "/juanmurillog/exequiales-monte-santo/static/css/main.57702e2b.chunk.css.map",
+    "static/js/2.155b0532.chunk.js.LICENSE.txt": "/juanmurillog/exequiales-monte-santo/static/js/2.155b0532.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d209fd1.js",
+    "static/js/runtime-main.17128904.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.138ee003.chunk.js",
+    "static/js/2.155b0532.chunk.js",
     "static/css/main.57702e2b.chunk.css",
-    "static/js/main.fe08ff98.chunk.js"
+    "static/js/main.b37fea19.chunk.js"
   ]
 }
